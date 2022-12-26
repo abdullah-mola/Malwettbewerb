@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/datenschutz"
+            android:title="@string/datenschutz"
+            android:checked="true" />
+        <item
+            android:id="@+id/teilnahmebedingungen"
+            android:title="@string/teilnahmebedingungen" />
+        <item
+            android:id="@+id/impressum"
+            android:title="@string/impressum" />
+        <item
+            android:id="@+id/itemAGB"
+            android:title="@string/agb"
+            />
+        <item
+            android:id="@+id/DisclaimerItem"
+            android:title="@string/disclaimer"
+            />
+        <item
+            android:id="@+id/cockiesRechtLinien"
+            android:title="@string/cockies_rechtlinien"
+            />
+        <item
+            android:id="@+id/sumsiInfoSite"
+            android:title="@string/sumsi_information"
+            />
+    </group>
+
+</menu>

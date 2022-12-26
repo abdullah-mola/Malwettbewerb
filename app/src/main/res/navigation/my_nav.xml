@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/showAllImagesFragment">
+    <fragment
+        android:id="@+id/showAllImagesFragment"
+        android:name="abdullah.mola.malwettbewerb.fragments_a_activities.ShowAllImagesFragment"
+        android:label="fragment_show_all_images"
+        tools:layout="@layout/fragment_show_all_images" >
+        <action
+            android:id="@+id/action_showAllImagesFragment_to_addImageFragment"
+            app:destination="@id/addImageFragment" />
+        <action
+            android:id="@+id/navigateShowAllToVoteImage"
+            app:destination="@id/voteImageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/voteImageFragment"
+        android:name="abdullah.mola.malwettbewerb.fragments_a_activities.VoteImageFragment"
+        android:label="fragment_vote_image"
+        tools:layout="@layout/fragment_vote_image" >
+        <action
+            android:id="@+id/action_voteImageFragment_to_showAllImagesFragment"
+            app:destination="@id/showAllImagesFragment" />
+        <argument
+            android:name="submission"
+            app:argType="string"/>
+    </fragment>
+    <fragment
+        android:id="@+id/addImageFragment"
+        android:name="abdullah.mola.malwettbewerb.fragments_a_activities.AddImageFragment"
+        android:label="AddImageFragment" >
+        <action
+            android:id="@+id/action_addImageFragment_to_showAllImagesFragment"
+            app:destination="@id/showAllImagesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/AGB"
+        android:name="abdullah.mola.malwettbewerb.info_bedingungen_fragments.AGB"
+        android:label="fragment_a_g_b"
+        tools:layout="@layout/fragment_a_g_b" />
+    <fragment
+        android:id="@+id/datenschutz2"
+        android:name="abdullah.mola.malwettbewerb.info_bedingungen_fragments.Datenschutz"
+        android:label="fragment_datenschutz"
+        tools:layout="@layout/fragment_datenschutz" />
+    <fragment
+        android:id="@+id/disclaimer"
+        android:name="abdullah.mola.malwettbewerb.info_bedingungen_fragments.Disclaimer"
+        android:label="fragment_disclaimer"
+        tools:layout="@layout/fragment_disclaimer" />
+    <fragment
+        android:id="@+id/impressum2"
+        android:name="abdullah.mola.malwettbewerb.info_bedingungen_fragments.Impressum"
+        android:label="fragment_impressum"
+        tools:layout="@layout/fragment_impressum" />
+    <fragment
+        android:id="@+id/teilnamebedingungen2"
+        android:name="abdullah.mola.malwettbewerb.info_bedingungen_fragments.Teilnamebedingungen"
+        android:label="fragment_teilnamebedingungen"
+        tools:layout="@layout/fragment_teilnamebedingungen" />
+    <fragment
+        android:id="@+id/cockieRichtlinien"
+        android:name="abdullah.mola.malwettbewerb.info_bedingungen_fragments.CockieRichtlinien"
+        android:label="fragment_cockie_richtlinien"
+        tools:layout="@layout/fragment_cockie_richtlinien" />
+    <fragment
+        android:id="@+id/allInfosFragment"
+        android:name="abdullah.mola.malwettbewerb.info_bedingungen_fragments.AllInfosFragment"
+        android:label="fragment_all_infos"
+        tools:layout="@layout/fragment_all_infos" />
+</navigation>

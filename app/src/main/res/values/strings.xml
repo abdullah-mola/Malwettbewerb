@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Malwettbewerb</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="impressum">Impressum</string>
+    <string name="agb">AGB</string>
+    <string name="exit_dialog_message">Are you sure want to exit?</string>
+    <string name="exit_dialog_title">Exit?</string>
+    <string name="option_yes">Yes</string>
+    <string name="option_no">No</string>
+    <string name="datenschutz">Datenschutz</string>
+    <string name="teilnahmebedingungen">conditions of participation</string>
+    <string name="teilnahmebedingungentext">conditions of participation</string>
+    <string name="datenschutztext" />
+    <string name="disclaimer">Disclaimer</string>
+    <string name="cockies_rechtlinien">Cookies Policy</string>
+    <string name="reif_eisen_bank">Raiffeisenbank</string>
+    <string name="welcome">Welcome</string>
+    <string name="logo">logo</string>
+    <string name="backgroundimg">backgroundImg</string>
+    <string name="email">Email</string>
+    <string name="to_picture">to picture</string>
+    <string name="picture">picture</string>
+    <string name="navigatetoaddimagefragment">NavigateToAddImageFragment</string>
+    <string name="yes_mail">Yes Mail</string>
+    <string name="no_mail">No Mail</string>
+    <string name="no_participation">No Participation</string>
+    <string name="yes_participation">Yes Participation</string>
+    <string name="no_privacy">No Privacy</string>
+    <string name="yes_privacy">Yes Privacy</string>
+    <string name="load_picture">Load Picture</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="show_image">Show Image</string>
+    <string name="information">information</string>
+    <string name="button_info_to_images">Button Info To Images</string>
+
+
+    <string name="legal_guardian_s_first_name">legal guardian\'s first name</string>
+    <string name="legal_guardian_last_name">legal guardian last name</string>
+    <string name="child_first_name">child first name</string>
+    <string name="child_last_name">child last name</string>
+    <string name="child_age">child age</string>
+    <string name="privacy_policy_approval">Privacy policy approval</string>
+    <string name="participation_policy_approval">Participation policy approval</string>
+    <string name="mail_notification_approval">Mail notification approval</string>
+    <string name="save">save</string>
+    <string name="cancel">Cancel</string>
+    <string name="vote">vote</string>
+    <string name="sumsi_information">Sumsi Information</string>
+    <string name="enter_your_mail_to_vote">Enter Your Mail to vote</string>
+    <string name="like_button">Like Button</string>
+    <string name="load_from_gallary">load from gallary</string>
+    <string name="load_from_camera">load from camera</string>
+    <string name="legalguardian_firstname">legalguardian_firstname</string>
+    <string name="legalguardian_lastname">legalguardian_lastname</string>
+    <string name="emailsub" translatable="false">emailsub</string>
+    <string name="preview_added_image">preview added Image</string>
+
+</resources>

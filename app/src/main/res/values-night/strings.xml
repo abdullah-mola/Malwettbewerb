@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yes_mail">Yes Mail</string>
+    <string name="no_mail">No Mail</string>
+    <string name="save">save</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit_dialog_message">Are you sure want to exit?</string>
+    <string name="exit_dialog_title">Exit?</string>
+    <string name="option_yes">Yes</string>
+    <string name="option_no">No</string>
+    <string name="mail_notification_approval">Mail notification approval</string>
+    <string name="yes_participation">Yes Participation</string>
+    <string name="participation_policy_approval">Participation policy approval</string>
+    <string name="no_privacy">No Privacy</string>
+    <string name="yes_privacy">Yes Privacy</string>
+    <string name="privacy_policy_approval">Privacy policy approval</string>
+    <string name="load_picture">Load Picture</string>
+    <string name="child_age">child age</string>
+    <string name="child_last_name">child last name</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="child_first_name">child first name</string>
+    <string name="show_image">Show Image</string>
+    <string name="information">information</string>
+    <string name="button_info_to_images">Button Info To Images</string>
+    <string name="sumsi_information">Sumsi Information</string>
+    <string name="enter_your_mail_to_vote">Enter Your Mail to vote</string>
+    <string name="like_button">Like Button</string>
+    <string name="preview_added_image">preview added Image</string>
+</resources>
